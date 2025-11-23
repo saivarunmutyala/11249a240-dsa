@@ -3,10 +3,10 @@ To write a C program to implement stack operations such as push, pop, and displa
 
 Algorithm:
 
-1. Start the program.
-2. Read the stack size (MAX).
+1.Start the program.
+2.Read the stack size (MAX).
 Initialize Top = -1.
-3. Define stack operations:
+3.Define stack operations:
 Push():
 If Top == MAX-1, display "Overflow".
 Else increase Top and insert item.
@@ -15,15 +15,15 @@ If Top == -1, display "Underflow".
 Else remove and decrease Top.
 Display():
 Print all elements from index 0 to Top.
-4. In main():
+4.In main():
 Create stack array.
 Display menu:
 1 → Push
 2 → Pop
 3 → Exit
 Perform the chosen operation using switch–case.
-5. Repeat until user selects Exit.
-6. End the program.
+5.Repeat until user selects Exit.
+6.End the program.
 
 Program:
 #include<stdio.h>
